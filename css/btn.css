@@ -1,0 +1,21 @@
+
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, #2fc2cf, #c698f1, #7d32be);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Ink Free';
+    margin: 40px 0;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-position: right;
+    background-image: linear-gradient(to left, rgb(123, 67, 186), #56cfdf, rgb(25, 176, 202));
+    transform: scale(104%);
+}

@@ -1,0 +1,45 @@
+<html5>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LogIn</title>
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/btn.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="img">
+                <img src="../image/ga/13.jpg">
+            </div>
+            <div class="login-content" id="logInContainer">
+                <form onsubmit="logInIsValid(event)">
+                    <img src="../image/profile.png">
+                    <h2 class="title">Log In</h2>
+                    <input type="email" class="input" placeholder="Email" required id="logInEmail">
+                    <input type="password" class="input" placeholder="Password" required id="logInPassword">
+                    <p id="logInMassage"></p>
+                    <input type="submit" class="btn" value="Login" id="submitlogIn">
+                    <p>dont have an acount yet? let's <b id="signUp" class="links">sign up</b></p>
+                </form>
+            </div>
+            <div class="login-content" id="signUpContainer">
+                <form onsubmit="signUpIsValid(event)">
+                    <img src="../image/profile.png">
+                    <h2 class="title">Sign up</h2>
+                    <input id="signUpName" type="text" class="input" placeholder="name" required>
+                    <input id="signUpEmail" type="email" class="input" placeholder="Email" required>
+                    <input id="signUpPassword" type="password" class="input" placeholder="Password" required>
+                    <p id="signUpMassage"></p>
+                    <input type="submit" class="btn" value="Sign Up" id="submitSignUp">
+                    <p>having an acount? <b id="logIn" class="links">login</b></p>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="../js/user.js"></script>
+    <script src="../js/login.js"></script>
+</html5>

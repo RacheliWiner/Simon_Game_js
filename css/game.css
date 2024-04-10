@@ -1,0 +1,96 @@
+body {
+    /* background-color: #c698f1; */
+    /* background-color: black; */
+    background-image: url("../image/ga/15.jpg");
+    background-size: cover;
+    font-family: "Ink Free";
+    /* justify-content: space-between; */
+
+
+}
+
+img {
+    width: 6vw;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+#you_win {
+    display: flex;
+}
+
+#counter {
+    display: block;
+    font-size: 300%;
+    color: aliceblue;
+    text-align: center;
+}
+
+#start {
+    border-radius: 20%;
+    height: 2vw;
+    width: 8vw;
+}
+
+button {
+    border-radius: 75%;
+    height: 15vw;
+    width: 15vw;
+
+}
+
+#youwinopacitiy {
+    opacity: 0%;
+}
+
+#btn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+#gameover {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-right: 4%;
+}
+
+/* #menue{
+    background-color: white;
+} */
+#b0 {
+    border-color: rgb(219, 31, 31);
+}
+
+#b1 {
+    border-color: rgb(73, 31, 224);
+}
+
+#b2 {
+    border-color: greenyellow;
+}
+
+#b3 {
+    border-color: yellow;
+}
+
+#b4 {
+    border-color: rgb(255, 123, 0);
+}
+
+#b5 {
+    border-color: rgb(240, 78, 240);
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b0 {
+    margin: 2vw;
+    border-style: dashed;
+    border-width: 1150%;
+    background-image: url("../image/ga/9.jpg");
+    background-size: cover;
+}

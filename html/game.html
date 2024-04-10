@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="stylesheet" href="../css/btn.css">
+
+    <title>game</title>
+
+</head>
+
+<body>
+
+    <div id="counter">your score is </div>
+    <div id="you_win">
+        <img src="../image/123.png" id="youwinopacitiy">
+    </div>
+    <div id="gameover">
+        <div id="btn">
+            <button id="b0" onclick="choise(0)"></button>
+            <button id="b1" onclick="choise(1)"></button>
+            <button id="b2" onclick="choise(2)"></button>
+            <button id="b3" onclick="choise(3)"></button>
+            <button id="b4" onclick="choise(4)"></button>
+            <button id="b5" onclick="choise(5)"></button>
+        </div>
+
+        <div id="menue">
+            <button class="btn" onclick="logOut()">Log out</button>
+            <button class="btn" onclick="goHome()">Home</button>
+            <button class="btn" onclick="newGame()">New game</button>
+            <button class="btn" onclick="instructions()">instructions</button>
+        </div>
+    </div>
+    <script src="../js/game.js"></script>
+    <script src="../js/user.js"></script>
+</body>
+
+</html>
